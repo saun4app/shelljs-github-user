@@ -1,4 +1,5 @@
-import github_user from '../src/index';
+const github_user = require('../src/index');
+// import github_user from '../src/index';
 
 describe('promise_github_user', () => {
     it('returns github_obj.name', () => {
