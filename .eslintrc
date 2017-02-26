@@ -12,8 +12,14 @@
     "jest": true
   },
   "rules": {
-    "semi": [2, never],
+    "semi": ["error", "always", { "omitLastInOneLineBlock": true}],
     "comma-dangle": 0,
-    "flowtype-errors/show-errors": 2
+    "flowtype-errors/show-errors": 2,
+    "camelcase": 0,
+    "indent": ["error", 4],
+    "quote-props": 0,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": ["error", { "functions": false}],
+    "yoda":0
   }
 }
