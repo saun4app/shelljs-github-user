@@ -37,8 +37,8 @@ module.exports = class extends Generator {
     }
 
     prompting() {
-        let self = this;
-        var done = this.async();
+        const self = this;
+        const done = this.async();
 
         github_user().then((github_obj) => {
             self.gitInfo = github_obj;
